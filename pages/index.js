@@ -16,6 +16,8 @@ import Collaboration from "@/components/Collaboration/Collaboration";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import { displayFancyLogs } from "utils/log";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
@@ -49,6 +51,8 @@ export default function Home() {
 
   return (
     <>
+      <SpeedInsights />
+      <Analytics />
       {isLoading ? (
         <Loader />
       ) : (

@@ -293,7 +293,7 @@ const Contact = () => {
         <p className="flex justify-center text-xs text-gray-light-1 mt-10 staggered-reveal">CHAT ON WHATSAPP</p>
 
         <div className="transition-all duration-[300ms] delay-[-20ms] ease-linear">
-          <a target="_blank" className="text-8xl group flex justify-center items-center uppercase pf" href="https://wa.me/212645594215">
+          <a target="_blank" className="text-8xl group flex justify-center items-center uppercase pf" href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}>
             {['C', 'l', 'i', 'c', 'k'].map((letter, index) => (
               <LetterComponent key={index} letter={letter} />
             ))}
