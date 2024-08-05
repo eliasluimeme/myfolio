@@ -4,14 +4,17 @@ export const METADATA = {
   description:
     "Elias Akry is a passionate Software engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubh731",
+  twitterHandle: "@Iliasse16170429",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Engineer",
-    "React Native Developer",
+    "Elias Akry",
     "Software Engineer",
+    "Frontend Engineer",
+    "backend Engineer",
+    "full-stack developer",
+    "Web Developer",
+    "DevOps",
     "Portfolio",
-    "Devfolio",
+    "Myfolio",
     "Folio",
   ].join(", "),
   image:
@@ -281,4 +284,4 @@ export const WORK_CONTENTS = {
   ],
 };
 
-export const GTAG = "G-5HCTL2TJ5W";
+export const GTAG = "G-QRPSYSM070";
