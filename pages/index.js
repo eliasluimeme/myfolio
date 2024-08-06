@@ -15,6 +15,7 @@ import Work from "@/components/Work/Work";
 import Collaboration from "@/components/Collaboration/Collaboration";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
+import Education from "@/components/Education/Education";
 import { displayFancyLogs } from "utils/log";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
@@ -76,6 +77,7 @@ export default function Home() {
             <About2 clientHeight={clientHeight} />
             <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
             <Work isDesktop={isDesktop} />
+            <Education />
             <Collaboration clientHeight={clientHeight} />
             <Contact />
           </main>
