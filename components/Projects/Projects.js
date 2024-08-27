@@ -42,7 +42,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
 
     const scrollTrigger = ScrollTrigger.create({
       trigger: sectionRef.current,
-      start: "top bottom",
+      start: "150px bottom",
       end: "bottom bottom",
       scrub: 0,
       animation: revealTl,

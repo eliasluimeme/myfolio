@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Elias Akry",
   description:
     "Elias Akry is a passionate Software engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
+  siteUrl: "https://www.akryelias.me/",
   twitterHandle: "@Iliasse16170429",
   keywords: [
     "Elias Akry",
@@ -18,7 +18,7 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
+    "https://www.dropbox.com/scl/fi/z3hx6lavyzivpycvtq702/preview.png?rlkey=45eienk69kyaokacz252jpyho&st=s3j420uh&dl=0",
   language: "English",
   themeColor: "#000000",
 };
@@ -65,10 +65,10 @@ export const SOCIAL_LINKS = [
     name: "github",
     url: "https://github.com/eliasluimeme",
   },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/e1i4ss/",
-  },
+  // {
+  //   name: "instagram",
+  //   url: "https://www.instagram.com/e1i4ss/",
+  // },
   {
     name: "twitter",
     url: "https://x.com/Iliasse16170429",

@@ -19,9 +19,22 @@ import Education from "@/components/Education/Education";
 import { displayFancyLogs } from "utils/log";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import { SKILLS } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
+
+const loadImageArray = (imageSrcArray) => {
+  const imagePromises = imageSrcArray.map((src) => {
+    return new Promise((resolve, reject) => {
+      const imgElement = new Image();
+      imgElement.src = src;
+      imgElement.onload = () => resolve();
+      imgElement.onerror = (error) => reject(error);
+    });
+  });
+  return Promise.all(imagePromises);
+};
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,11 +43,26 @@ export default function Home() {
   const [clientWidth, setClientWidth] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {
+    const skillImages = Object.values(SKILLS).flat().map(skill => `/skills/${skill}.svg`);
+    
+    const timer = setTimeout(() => {
       setIsLoading(false);
     }, 5600);
 
+    loadImageArray(skillImages)
+      .then(() => {
+        clearTimeout(timer);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.error("Failed to load images:", error);
+        clearTimeout(timer);
+        setIsLoading(false);
+      });
+
     displayFancyLogs();
+
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {

@@ -56,7 +56,7 @@ const Work = ({ isDesktop }) => {
 
       ScrollTrigger.create({
         trigger: sectionRef.current.querySelector(".work-wrapper"),
-        start: "100px bottom",
+        start: "150px bottom",
         end: "center center",
         scrub: 0,
         animation: tl,
