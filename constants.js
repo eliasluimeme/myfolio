@@ -285,7 +285,7 @@ export const WORK_CONTENTS = {
   //       </div>
   //     ),
   //   },
-  ],
+  // ],
 };
 
 export const GTAG = "G-QRPSYSM070";
