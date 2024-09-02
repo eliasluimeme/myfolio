@@ -120,6 +120,15 @@ export const PROJECTS = [
     url: "https://github.com/eliasluimeme/Airbnb-clone",
     tech: ["react", "nextjs", "tailwindcss", "django", "postresql"],
   },
+  {
+    name: "Ft_transcendence",
+    // image: "/projects/medium.webp",
+    // blurImage: "/projects/blur/medium-blur.webp",
+    description: "Online Pong Platform using NextJS + Tailwind CSS for the frontend ✍🏻 and NestJs + PostgreSQL for the backend",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://github.com/eliasluimeme/ft_transcendence",
+    tech: ["typescript", "react", "nextjs", "tailwindcss", "nestjs", "postgresql"],
+  },
   // {
   //   name: "Medium",
   //   image: "/projects/medium.webp",
