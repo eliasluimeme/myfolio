@@ -198,7 +198,7 @@ export const PROJECTS = [
 export const WORK_CONTENTS = {
   AIWOLVES: [
     {
-      title: "Dukaan",
+      title: "AI Wolves Inc",
       description:
         "AI Wolves Inc. stands as a pioneering force in the world of artificial intelligence.",
       content: (
@@ -208,79 +208,83 @@ export const WORK_CONTENTS = {
       ),
     },
     {
-      title: "Transformation",
+      title: "Internship",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "During my internship at Ai Wolves, I contributed to the development of a robust mobile app analytics platform that aggregates and analyzes the Apple App Store and Google Play Store and provides detailed data for every app.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Backend Engineer
+        </div>
+      ),
+    },
+    // {
+    //   title: "Evolution",
+    //   description:
+    //     "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+    //   content: (
+    //     <div className="h-full w-full flex items-center justify-center text-white px-4">
+    //       Frontend Engineer
+    //     </div>
+    //   ),
+    // },
+    // {
+    //   title: "Optimization",
+    //   description:
+    //     "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+    //   content: (
+    //     <div className="h-full w-full flex items-center justify-center text-white px-4">
+    //       Frontend Engineer Intern
+    //     </div>
+    //   ),
+    // },
+  ],
+  FREELANCE: [
+    {
+      title: "Freelance",
+      description:
+          "During my time as a freelance full stack developer, I gained valuable insights into both technical and soft skills that significantly enhanced my professional growth. Working on diverse projects allowed me to deepen Technical Proficiency, develop Problem-Solving Skills, enhance Communication and Collaboration, and build Project Management Skills",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Freelance
         </div>
       ),
     },
     {
-      title: "Evolution",
+      title: "Full Stack Developer",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
-      content: (
+        "As a freelance full stack developer, I designed and implemented dynamic web applications, managing both frontend and backend development. I collaborated with clients to understand their requirements and delivered tailored solutions that met their needs. My responsibilities included: \
+          - Developing user-friendly interfaces using modern frameworks and libraries. \
+          - Creating and maintaining RESTful APIs for seamless integration between frontend and backend services.\
+          - Implementing database solutions, ensuring efficient data management and retrieval.\
+          - Utilizing best practices for code quality, testing, and deployment. \
+          - Collaborating with clients throughout the development lifecycle to ensure satisfaction and project success.",      content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Optimization",
-      description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          Full Stack Developer
         </div>
       ),
     },
   ],
-  AVIATE: [
-    {
-      title: "Aviate",
-      description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
-        </div>
-      ),
-    },
-    {
-      title: "Innovation",
-      description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
-        </div>
-      ),
-    },
-  ],
-  SPACENOS: [
-    {
-      title: "Spacenos",
-      description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
-        </div>
-      ),
-    },
-    {
-      title: "Trailblazing",
-      description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
-        </div>
-      ),
-    },
+  // SPACENOS: [
+  //   {
+  //     title: "Spacenos",
+  //     description:
+  //       "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         We build apps that solve problems for the next billion people
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Trailblazing",
+  //     description:
+  //       "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Web Developer Intern
+  //       </div>
+  //     ),
+  //   },
   ],
 };
 

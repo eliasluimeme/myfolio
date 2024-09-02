@@ -26,7 +26,7 @@ const Work = ({ isDesktop }) => {
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.AVIATE}
+            contentItems={WORK_CONTENTS.FREELANCE}
           />
         ),
       },
