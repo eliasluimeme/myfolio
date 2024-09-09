@@ -82,7 +82,7 @@ export const SKILLS = {
     "cpp",
     "javascript",
     "typescript",
-    // "java",
+    "java",
     // "webpack",
     // "react",
     "html",
@@ -117,7 +117,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/airbnb-blur.webp",
     description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️ and Python Django + PostgreSQL for the backend",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://github.com/eliasluimeme/Airbnb-clone",
+    url: "https://https://elias-airbnb-clone.vercel.app/",
     tech: ["react", "nextjs", "tailwindcss", "django", "postgresql"],
   },
   {
