@@ -121,21 +121,21 @@ export const PROJECTS = [
     tech: ["react", "nextjs", "tailwindcss", "django", "postgresql"],
   },
   {
-    name: "Ft_transcendence",
-    image: "/projects/ft_transcendence.webp",
-    blurImage: "/projects/blur/ft_transcendence-blur.webp",
-    description: "Online Pong Platform using NextJS + Tailwind CSS ✍🏻 and NestJs + PostgreSQL for the backend",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://github.com/eliasluimeme/ft_transcendence",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "nestjs", "postgresql"],
-  },
-  {
     name: "OnBank",
     image: "/projects/onbank.webp",
     blurImage: "/projects/blur/onbank-blur.webp",
     description: "Money Transfer Platform using NextJS + Tailwind CSS ✍🏻 and Django + PostgreSQL for the backend",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://github.com/eliasluimeme/Money-Transfer-App",
+    tech: ["typescript", "react", "nextjs", "tailwindcss", "nestjs", "postgresql"],
+  },
+  {
+    name: "Ft_transcendence",
+    image: "/projects/ft_transcendence.webp",
+    blurImage: "/projects/blur/ft_transcendence-blur.webp",
+    description: "Online Pong Platform using NextJS + Tailwind CSS ✍🏻 and NestJs + PostgreSQL for the backend",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://github.com/eliasluimeme/ft_transcendence",
     tech: ["typescript", "react", "nextjs", "tailwindcss", "nestjs", "postgresql"],
   },
   // {
@@ -231,7 +231,7 @@ export const WORK_CONTENTS = {
         "During my internship at Ai Wolves, I contributed to the development of a robust mobile app analytics platform that aggregates and analyzes the Apple App Store and Google Play Store and provides detailed data for every app.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Backend Engineer
+          Backend Developer Intern
         </div>
       ),
     },
