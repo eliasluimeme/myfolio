@@ -117,7 +117,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/airbnb-blur.webp",
     description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️ and Python Django + PostgreSQL for the backend",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://https://elias-airbnb-clone.vercel.app/",
+    url: "https://elias-airbnb-clone.vercel.app/",
     tech: ["react", "nextjs", "tailwindcss", "django", "postgresql"],
   },
   {
